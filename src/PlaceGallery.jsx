@@ -18,7 +18,7 @@ const PlaceGallery = ({place}) => {
                     </div>
                 {place?.photos?.length > 0 && place.photos.map(photo => (
                     <div className='w-full h-full'>
-                        <img className='object-cover w-full h-full' src={'https://hotelbooking2.onrender.com/uploads/'+photo} alt="" />
+                        <img className='object-cover w-full h-full' src={'https://hotelbookingapp-67et.onrender.com/uploads/'+photo} alt="" />
                     </div>
                 ))}
                 </div>
@@ -32,20 +32,20 @@ const PlaceGallery = ({place}) => {
         <div>
             {place.photos?.[0] && (
                 <div className='w-full h-full'>
-                    <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer' src={'https://hotelbooking2.onrender.com/uploads/'+place.photos[0]}/>
+                    <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer' src={'https://hotelbookingapp-67et.onrender.com/uploads/'+place.photos[0]}/>
                 </div>
             )}
         </div>
         <div className='grid'>
             {place.photos?.[1] && (
                 <div className='w-full h-full'>
-                    <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer aspect-square' src={'https://hotelbooking2.onrender.com/uploads/'+place.photos[1]}/>
+                    <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer aspect-square' src={'https://hotelbookingapp-67et.onrender.com/uploads/'+place.photos[1]}/>
                 </div>
                 
             )}
             <div className='w-full h-full overflow-hidden'>
             {place.photos?.[2] && (
-                <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer aspect-square relative top-2' src={'https://hotelbooking2.onrender.com/uploads/'+place.photos[2]}/>
+                <img onClick={() =>setShowAllPhotos(true)} className='w-full h-full cursor-pointer aspect-square relative top-2' src={'https://hotelbookingapp-67et.onrender.com/uploads/'+place.photos[2]}/>
             )}
             </div>
         </div>
