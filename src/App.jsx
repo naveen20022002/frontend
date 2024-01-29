@@ -15,7 +15,7 @@ import BookingsPage from './Pages/BookingsPage'
 import BookingPage from './Pages/BookingPage'
 
 // https://hotelbooking2.onrender.com
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://hotelbookingapp-67et.onrender.com';
 axios.defaults.withCredentials = true;
 
 
