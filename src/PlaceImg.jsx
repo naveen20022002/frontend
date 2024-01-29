@@ -9,7 +9,7 @@ const PlaceImg = ({place, index=0, className=null}) => {
     // }
   return (
     <div className='w-full h-full'>
-        <img className = 'w-full h-full object-cover' src={'http://localhost:4000/uploads/'+place.photos[index]}/>
+        <img className = 'w-full h-full object-cover' src={'https://hotelbookingapp-67et.onrender.com/uploads/'+place.photos[index]}/>
     </div>
     
   )
